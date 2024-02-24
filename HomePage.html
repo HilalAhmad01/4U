@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" type="text/css" href="Homepage.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" >
+    <title>4U</title>
+    <style>
+        .about_us, .our_story {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+        }
+
+        .about_us .text_container, .our_story .text_container {
+            flex: 1;
+        }
+
+        .about_us img, .our_story img {
+            width: 50%;
+            border-radius: 10px;
+        }
+
+        .about_us .text_container p, .our_story .text_container p {
+            font-size: 18px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .about_us, .our_story {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .about_us img, .our_story img {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <img src="clogo.jpeg" class="nav_logo"></a>
+            <ul class="nav_items">
+                <li class="nav_item">
+                    <a href="HomePage.html" class="nav_link">Home</a>
+                    <a href="#about_us" class="nav_link">About Us</a>
+                    <a href="jobs.html" class="nav_link">Book a Jobber</a>
+                    <a href="contact.html" class="nav_link">Contact Us</a>
+                </li>
+            </ul>
+            <button class="button" id="form-open">Login</button>
+        </nav>
+    </header>
+    <!-- Home -->
+    <section class="home">
+        <div class="form_container">
+          <i class="uil uil-times form_close"></i>
+          <!-- Login From -->
+          <div class="form login_form">
+            <form action="#">
+              <h2>Login</h2>
+  
+              <div class="input_box">
+                <input type="email" placeholder="Enter your email" required />
+                <i class="uil uil-envelope-alt email"></i>
+              </div>
+              <div class="input_box">
+                <input type="password" placeholder="Enter your password" required />
+                <i class="uil uil-lock password"></i>
+                <i class="uil uil-eye-slash pw_hide"></i>
+              </div>
+  
+              <div class="option_field">
+                <span class="checkbox">
+                  <input type="checkbox" id="check" />
+                  <label for="check">Remember me</label>
+                </span>
+                <a href="#" class="forgot_pw">Forgot password?</a>
+              </div>
+  
+              <button class="button">Login Now</button>
+  
+              <div class="login_signup">Don't have an account? <a href="#" id="signup">Signup</a></div>
+            </form>
+          </div>
+  
+          <!-- Signup From -->
+          <div class="form signup_form">
+            <form action="#">
+              <h2>Signup</h2>
+  
+              <div class="input_box">
+                <input type="email" placeholder="Enter your email" required />
+                <i class="uil uil-envelope-alt email"></i>
+              </div>
+              <div class="input_box">
+                <input type="password" placeholder="Create password" required />
+                <i class="uil uil-lock password"></i>
+                <i class="uil uil-eye-slash pw_hide"></i>
+              </div>
+              <div class="input_box">
+                <input type="password" placeholder="Confirm password" required />
+                <i class="uil uil-lock password"></i>
+                <i class="uil uil-eye-slash pw_hide"></i>
+              </div>
+  
+              <button class="button">Signup Now</button>
+  
+              <div class="login_signup">Already have an account? <a href="#" id="login">Login</a></div>
+            </form>
+          </div>
+        </div>
+        <section>
+            <img src="helpers.jpg">
+      </section>
+      <section class="about_us">
+        <div class="text_container">
+            <h2>About Us</h2>
+            <p>Welcome to 4U
+
+              At 4U, we're dedicated to reshaping the way you find and hire skilled professionals for your home improvement projects. With a commitment to excellence and innovation, we're here to simplify your search and elevate your experience.
+              </p>
+              
+              <b>Our Vision</b>
+              <p>
+              Founded with a passion for empowering both clients and freelancers, 4U is more than just a platform – it's a community built on trust, reliability, and collaboration. Our vision is to create a seamless marketplace where every interaction is efficient, transparent, and rewarding.</p>
+        </div>
+        <img src="aboutuspic.jpg" alt="About Us Image" style="width:30%;height: 20%;" >
+    </section>
+
+    <!-- Our Story -->
+    <section class="our_story">
+        <img src="ourstrory.jpg" alt="Our Story Image" style="margin-right: 100px; height: 140%;">
+        <div class="text_container">
+            <h2>Our Story</h2>
+            <p><b>Our Story: Transforming Home Services, One Project at a Time</b></p>
+<p>
+              At 4U, our journey began with a simple yet powerful realization: the process of finding reliable home service professionals was often complicated, time-consuming, and filled with uncertainty. Fueled by a shared passion for innovation and a desire to make a meaningful impact, we set out on a mission to change that.
+              <p>
+              <b>The Spark of Inspiration</b>
+              </p>
+              It all started with a conversation among friends who had experienced firsthand the frustrations of home improvement projects gone awry. From unreliable contractors to endless search results with no clear answers, the need for a better solution was evident. Inspired by the belief that finding trustworthy professionals should be as easy as a few clicks, we embarked on a journey to create a platform that would revolutionize the home services industry.
+              <p>
+              <b>Building a Community of Excellence</b>
+              </p>
+              Driven by a commitment to excellence, we assembled a team of dedicated individuals who shared our vision and values. Together, we worked tirelessly to build a platform that prioritized quality, transparency, and convenience. Through rigorous vetting processes and meticulous attention to detail, we ensured that every professional on our platform was not just skilled, but also trustworthy and reliable.</p>
+        </div>
+      
+    </section>
+    <section>
+    <div class="contact-form">
+      <h1>Contact Us</h1>
+      <div class="container">
+          <div class="main">
+              <div class="content">
+                  <h2>Contact Us</h2>
+                  <form action="#" method="post">
+                      <input type="text" name="name" placeholder="Enter Your Name">
+                    
+                      <input type="email" name="name" placeholder="Enter Your Email">
+                      <textarea name="message" placeholder="Your Message"></textarea>                   
+           <button type="submit" class="btn">Send <i class="fas fa-paper-plane"></i></button>
+                  </form>
+              </div>
+              <div class="form-img">
+                  <img src="clogo.jpeg" alt="">
+              </div>
+          </div>
+      </div>
+  </div> 
+</section>
+<section>
+<footer style="background-color: black;">
+<p style="color:white;text-align: center;">All Rights Reserved 2024 @4U </p>
+
+
+</footer>
+</section>
+    <script src="HomePage.js"></script>
+</body>
+</html>
+
+      </section>
+      </section>
+  
+    <script src="HomePage.js"></script>
+</body>
+</html>
